@@ -14,12 +14,15 @@
         @apply cursor-pointer;
     }
 }
+.logo:hover {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.925));
+}
 
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 250px;
+    background-position: top;
+    height: 180px;
 }
 
 .content-div:hover {
